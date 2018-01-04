@@ -1,0 +1,6 @@
+if ( 0 > 1):
+    print "Condition true"
+elif ( 0 > 0 ):
+    print "Condition False"
+else:
+    print "2 condition also False"

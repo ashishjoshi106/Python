@@ -1,0 +1,8 @@
+for i in range(100):
+    print i
+    if i == 2:
+        continue
+    if i > 4:
+        print "I have to done it"
+        break
+    print i**2

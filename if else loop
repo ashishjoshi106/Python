@@ -4,3 +4,31 @@ elif ( 0 > 0 ):
     print "Condition False"
 else:
     print "2 condition also False"
+
+
+
+###################################################
+
+
+country = str(raw_input("Shipping within the US or Canada? :"))
+total = int(raw_input("What is the total amount for your online shopping? :"))
+if country == "US":
+      if total <= 50:
+          print "Shipping Costs $6.00"
+      elif total <= 100:
+          print "Shipping Costs $9.00"
+      elif total > 100:
+          print "Shipping Costs $12.00"
+      else:
+          print "FREE"
+elif country == "Canada":
+    if total <= 50 :
+        print "Shipping Costs $8.00"
+    elif total <= 100:
+        print "Shipping Costs $12.00"
+    elif total > 100:
+        print "Shipping Costs $15.00"
+    else:
+        print "FREE"
+else:
+    print "Enter Correct Name of Country"
